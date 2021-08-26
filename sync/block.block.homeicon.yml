@@ -1,0 +1,25 @@
+uuid: 3e97ac3c-4164-4f0e-af21-5ac924c23a12
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:98e14d7b-722d-4bfc-8321-05db4443c787'
+  module:
+    - block_content
+  theme:
+    - exam
+id: homeicon
+theme: exam
+region: header
+weight: -6
+provider: null
+plugin: 'block_content:98e14d7b-722d-4bfc-8321-05db4443c787'
+settings:
+  id: 'block_content:98e14d7b-722d-4bfc-8321-05db4443c787'
+  label: home-icon
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

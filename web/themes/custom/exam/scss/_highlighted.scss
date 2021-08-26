@@ -1,0 +1,35 @@
+.region-highlighted{
+  margin: 105px auto 100px auto;
+  max-width: 1250px;
+  border-top: 5px solid #373645;
+  border-bottom: 5px solid #6e9bca;
+  //padding: 19px 0 22px 0;
+  .layout__region--content{
+    display: flex;
+  }
+  .block-field-blockblock-contentinspiration-field-inspiration-tittle{
+    p{
+      margin: 19px 0 0 1px;
+      color: #373645;
+      font-size: 23px;
+    }
+  }
+
+  .block-field-blockblock-contentinspiration-field-inspiration-tittle-two{
+    p{
+      margin: 24px 20px 0 11px;
+      color: #cccccc;
+      font-size: 15px;
+      letter-spacing: 3px;
+    }
+  }
+  .block-field-blockblock-contentinspiration-field-inspiration-tittle-body{
+    p{
+        font-size: 12px;
+      padding: 10px;
+      background-color: #6e9bca;
+      margin: 17px 0 16px 0;
+      color: #ffffff;
+    }
+  }
+}

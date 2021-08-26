@@ -1,0 +1,25 @@
+uuid: bf9bb9a5-0836-421f-9365-dabce10565b3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:inspiration_:ed754558-6041-47f1-ac80-2f0b1c7c1cdd'
+  module:
+    - block_content
+  theme:
+    - exam
+id: aboutblock
+theme: exam
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:ed754558-6041-47f1-ac80-2f0b1c7c1cdd'
+settings:
+  id: 'block_content:ed754558-6041-47f1-ac80-2f0b1c7c1cdd'
+  label: about-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

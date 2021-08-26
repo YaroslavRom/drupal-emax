@@ -1,0 +1,19 @@
+uuid: d38aecc4-f6bc-477c-b0eb-2fd3ddabc403
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_inspiration_tittle
+field_name: field_inspiration_tittle
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

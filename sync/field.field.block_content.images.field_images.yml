@@ -1,0 +1,21 @@
+uuid: 4444379a-792b-4b4b-8059-e53d48542981
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.images
+    - field.storage.block_content.field_images
+  module:
+    - text
+id: block_content.images.field_images
+field_name: field_images
+entity_type: block_content
+bundle: images
+label: images
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
