@@ -1,0 +1,15 @@
+uuid: b4d6604c-212d-4585-83ae-ddbc7b60d953
+langcode: en
+status: true
+dependencies:
+  config:
+    - flag.flag.my_like
+  module:
+    - flag
+id: flag_action.my_like_flag
+label: 'Flag this item'
+type: node
+plugin: 'flag_action:my_like_flag'
+configuration:
+  flag_id: my_like
+  flag_action: flag

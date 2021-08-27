@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:inspiration_:ed754558-6041-47f1-ac80-2f0b1c7c1cdd'
   module:
     - block_content
+    - system
   theme:
     - exam
 id: aboutblock
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-page
+    negate: false

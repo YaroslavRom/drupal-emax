@@ -1,0 +1,21 @@
+uuid: 2bab2595-24da-402b-b102-c4dda66b1d60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_time_ago
+    - node.type.news_item_
+  module:
+    - datetime
+id: node.news_item_.field_time_ago
+field_name: field_time_ago
+entity_type: node
+bundle: news_item_
+label: time-ago
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

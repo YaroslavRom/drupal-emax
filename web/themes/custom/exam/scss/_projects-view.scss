@@ -1,25 +1,27 @@
 main{
   .block-views-blockproject-view-block-1 {
-    background: repeating-linear-gradient(-60deg, #dbdbdb 0, #dbdbdb 1px, transparent 1px, transparent 5px);
     margin: 111px auto 0 auto;
+    border-top: 1px solid #ccc;
+    max-width: 1215px;
     .view-content .field--name-field-services-read-more {
       background-color: #373645;
     }
     h2 {
-      margin: -19px auto 99px auto;
+      margin: -19px auto 0 auto;
       width: 188px;
       background-color: #fff;
+      display: block;
     }
   }
   .view-id-project_view{
     max-width: 1215px;
-    border-top: 1px solid #ccc;
     margin: 0 auto;
     padding: 103px 0 0 0;
+    .node__content{
+      border-bottom: 1px solid #363745;
+      padding: 0 0 12px 0;
+    }
   }
-  .node__content{
-    padding: 0 0 12px 0;
-    border-block-end: 1px solid #363745;
-  }
-
 }
+
+//background: repeating-linear-gradient(-60deg, #dbdbdb 0, #dbdbdb 1px, transparent 1px, transparent 5px);

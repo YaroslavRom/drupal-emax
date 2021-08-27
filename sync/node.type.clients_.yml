@@ -1,0 +1,18 @@
+uuid: b87f0f2e-17c2-4d02-91e1-c9f15e1c4877
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: clients
+type: clients_
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

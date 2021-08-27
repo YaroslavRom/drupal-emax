@@ -38,6 +38,9 @@ main{
       }
       .views-row{
         margin: 0 65px 0 0;
+        &:last-child{
+          margin: 0;
+        }
         img{
           margin: 0 0 40px 0;
         }
