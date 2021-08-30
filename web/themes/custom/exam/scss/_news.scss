@@ -1,0 +1,12 @@
+main{
+  .main-content{
+    .region-content{
+      .node--news-item-{
+        .node__content{
+          display: flex;
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}
