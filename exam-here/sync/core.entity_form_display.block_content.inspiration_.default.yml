@@ -1,0 +1,49 @@
+uuid: 757b71bf-0767-4975-97a0-12442564aa3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.inspiration_
+    - field.field.block_content.inspiration_.field_inspiration_tittle
+    - field.field.block_content.inspiration_.field_inspiration_tittle_body
+    - field.field.block_content.inspiration_.field_inspiration_tittle_two
+  module:
+    - text
+id: block_content.inspiration_.default
+targetEntityType: block_content
+bundle: inspiration_
+mode: default
+content:
+  field_inspiration_tittle:
+    weight: 29
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_inspiration_tittle_body:
+    weight: 31
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_inspiration_tittle_two:
+    weight: 30
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

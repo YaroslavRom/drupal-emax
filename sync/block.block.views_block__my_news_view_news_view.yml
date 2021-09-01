@@ -1,0 +1,29 @@
+uuid: 254113b2-1a84-4e5c-b00e-ef391ec3fb48
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.my_news_view
+  module:
+    - system
+    - views
+  theme:
+    - exam
+id: views_block__my_news_view_news_view
+theme: exam
+region: content
+weight: -8
+provider: null
+plugin: 'views_block:my_news_view-news_view'
+settings:
+  id: 'views_block:my_news_view-news_view'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /home-page
+    negate: false

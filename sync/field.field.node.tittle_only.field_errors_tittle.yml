@@ -1,0 +1,21 @@
+uuid: a0255130-e4cb-4726-872f-96d414c0edb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_errors_tittle
+    - node.type.tittle_only
+  module:
+    - text
+id: node.tittle_only.field_errors_tittle
+field_name: field_errors_tittle
+entity_type: node
+bundle: tittle_only
+label: errors-tittle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

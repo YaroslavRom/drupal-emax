@@ -1,0 +1,21 @@
+uuid: c508c5c9-074f-4bae-984f-91704f3ac94b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.inspiration_
+    - field.storage.block_content.field_inspiration_tittle
+  module:
+    - text
+id: block_content.inspiration_.field_inspiration_tittle
+field_name: field_inspiration_tittle
+entity_type: block_content
+bundle: inspiration_
+label: inspiration-tittle
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

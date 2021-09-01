@@ -1,0 +1,26 @@
+uuid: 58e13e0e-6a3e-4511-80ff-4b63f0f803c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.my_contact_form.field_contact_place
+    - field.field.node.my_contact_form.field_my_form
+    - field.field.node.my_contact_form.field_my_map
+    - node.type.my_contact_form
+  module:
+    - user
+id: node.my_contact_form.teaser
+targetEntityType: node
+bundle: my_contact_form
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_contact_place: true
+  field_my_form: true
+  field_my_map: true

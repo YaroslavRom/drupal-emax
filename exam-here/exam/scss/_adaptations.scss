@@ -1,0 +1,171 @@
+/*@media (max-width: 1400px) {
+  header{
+    //background-size: contain;
+  }
+}*/
+
+@media (max-width: 1400px) {
+  #block-exam-branding a img {
+    width: 131px;
+    height: 71px;
+    margin: 0 0 0 4px;
+  }
+  header{
+    padding-top: 0;
+    .region-header {
+      text-align: center;
+      max-height: 71px;
+    }
+}
+  .form-mini-box {
+   max-width: 1137px;
+  }
+  #block-homeicon .field--type-text-with-summary p img{
+    border-bottom: 1px solid transparent;
+  }
+  .responsive-menus-simple{
+    text-align: center;
+    .field--type-text-with-summary{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .responsive-menus.responsified .responsive-menus-simple li a {
+    text-align: center;
+  }
+  .region-highlighted {
+    display: flex;
+    flex-direction: column;
+    max-width: 129px;
+    text-align: center;
+    .layout__region--content {
+        flex-direction: column;
+  }
+  }
+  .view-content{
+    display: flex;
+    flex-direction: column;
+  }
+  main .region-content .view-content .views-row{
+    margin: 10px auto 20px auto;
+  }
+  .gradient-box{
+    height: 100%;
+  }
+  main .region-content .view-content .views-row:last-child{
+    margin: 0 auto;
+  }
+  .view-filters{
+    max-width: 420px;
+  }
+  #block-views-block-my-news-view-news-view .view-content .views-row{
+    margin: 22px auto;
+  &:last-child{
+    margin: 22px auto;
+  }
+  }
+}
+@media (max-width: 1050px) {
+  .webform-submission-contact-form,.field--name-field-contact-place{
+    float: none;
+  }
+  .webform-submission-contact-form .webform-actions{
+    float: none;
+  }
+  iframe{
+    margin: 0 auto;
+  }
+  .text-formatted{
+    p{
+      max-width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+  }
+  .region-primary-menu .layout__region--content{
+    margin: 40px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .views-field-field-news-date, .views-field-field-news-image, .views-field-field-tiite-of-work, .views-field-field-person-name, .views-field-field-field-of-work, .views-field-field-paragraph-title, .views-field-field-news-body{
+    float: none;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+  .views-field-field-news-date{
+    max-width: none;
+  }
+  #block-views-block-my-news-view-news-view .view-content .views-row img{
+    border-right: 1px solid #cccccc;
+    padding-right: 5px;
+  }
+  .views-field-field-news-image{
+    .field-content{
+      max-height: 66px;
+    }
+  }
+  #block-views-block-my-news-view-news-view .view-content .views-row{
+    max-height: none;
+    max-width: 270px;
+  div span{
+    float: none;
+    margin: 0 auto;
+  }
+  }
+  .views-field-field-more-news{
+    float: none;
+    margin: 10px auto 10px auto;
+  }
+  .views-field-field-news-body{
+   border-right: 1px solid #ccc;
+    margin: 0 5px 0 5px;
+  }
+  #block-views-block-my-news-view-news-view .form--inline{
+    max-width: 270px;
+    float: none;
+    margin: 0 auto;
+    .form-item input{
+      max-width: 92px;
+    }
+    .form-actions{
+      left: 92px;
+    }
+  }
+  #block-views-block-my-news-view-news-view .form--inline{
+
+  }
+  footer{
+    img{
+      max-width: 140px;
+    }
+  }
+  .region-primary-menu{
+      .contextual-region{
+        position: initial;
+        .field--name-field-inspiration-tittle{
+          font-size: 16px;
+        }
+        .field--name-field-inspiration-tittle-two{
+          font-size: 14px;
+        }
+        .field--name-field-inspiration-tittle-body{
+          font-size: 10px;
+        }
+      }
+  }
+}
+
+@media (max-width: 488px) {
+  .form-mini-box .form-item #edit-name, .form-mini-box .form-item #edit-email, .form-mini-box .form-item #edit-tel{
+    max-width: 308px;
+  }
+  .form-mini-box .form-item #edit-subject{
+    max-width: 308px;
+  }
+  iframe{
+    max-width: 308px;
+    height: 170px;
+  }
+}

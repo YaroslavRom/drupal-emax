@@ -1,0 +1,33 @@
+.node--article{
+  .node__content{
+    margin: 60px auto 20px auto;
+    max-width: 1215px;
+    .field--type-text-with-summary{
+      padding: 20px;
+      border-top: 5px solid #373645;
+      border-bottom: 5px solid #6e9bca;
+    }
+  }
+}
+.view-services-page,.view-projects-page, .view-teams-page,.view-clients-page{
+  margin: 60px auto 20px auto;
+  border-top: 5px solid #373645;
+  border-bottom: 5px solid #6e9bca;
+  .view-content{
+    display: flex;
+    text-transform: uppercase;
+    a{
+      font-weight: bold;
+      font-size: 32px;
+      color: #0c97ed;
+    }
+  }
+}
+
+
+//margin: 60px auto 20px auto;
+//max-width: 1215px;
+//padding: 20px;
+//border-top: 5px solid #373645;
+//border-bottom: 5px solid #6e9bca;
+

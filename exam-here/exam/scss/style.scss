@@ -1,0 +1,71 @@
+@import "variables";
+@import "mixin";
+.page {
+  //font:18px/1.4 'Roboto', sans-serif;
+  color: $black;
+}
+
+main{
+  //max-width: $desktop;
+  padding: 0 10px;
+}
+.page-title{
+  text-align: center;
+}
+@import "variables";
+body,html{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  overflow-y: scroll;
+}
+.page{
+
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+*{
+  box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6,ol,ul{
+  margin-top: 0;
+}
+h1{
+  font-size: 40px;
+}
+h2{
+  font-size: 32px;
+}
+h3{
+  font-size: 25px;
+}
+h4{
+  font-size: 20px;
+}
+p{
+  margin-bottom: $gutterM;
+}
+
+@import "header";
+@import "highlighted";
+@import "services-view";
+@import "projects-view";
+@import "clients-view";
+@import "team-view";
+@import "about-and-other-menus";
+@import "footer";
+@import "errors";
+@import "gradient";
+@import "contact-form";
+@import "primary-menu";
+@import "news-view";
+@import "adaptations";
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

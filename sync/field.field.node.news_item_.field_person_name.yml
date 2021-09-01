@@ -1,0 +1,21 @@
+uuid: 8f1a0ff0-2815-4a4e-9a0a-127248d5e247
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_person_name
+    - node.type.news_item_
+  module:
+    - text
+id: node.news_item_.field_person_name
+field_name: field_person_name
+entity_type: node
+bundle: news_item_
+label: news-person-name
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

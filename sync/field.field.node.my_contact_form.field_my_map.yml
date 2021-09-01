@@ -1,0 +1,19 @@
+uuid: 2317b088-0c69-4b47-ab9b-9c4f9b752322
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_my_map
+    - node.type.my_contact_form
+id: node.my_contact_form.field_my_map
+field_name: field_my_map
+entity_type: node
+bundle: my_contact_form
+label: my-map
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,21 @@
+uuid: 25804bdb-ea06-48f6-b23f-da303e6cdefe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_services_tittle
+    - node.type.projects_item
+  module:
+    - text
+id: node.projects_item.field_services_tittle
+field_name: field_services_tittle
+entity_type: node
+bundle: projects_item
+label: services-tittle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

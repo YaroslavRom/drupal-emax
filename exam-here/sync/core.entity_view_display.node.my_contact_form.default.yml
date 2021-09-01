@@ -1,0 +1,56 @@
+uuid: 6dd60281-79a9-4e05-93a8-d83224d7cead
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.my_contact_form.field_contact_place
+    - field.field.node.my_contact_form.field_my_form
+    - field.field.node.my_contact_form.field_my_map
+    - node.type.my_contact_form
+  module:
+    - simple_gmap
+    - text
+    - user
+    - webform
+id: node.my_contact_form.default
+targetEntityType: node
+bundle: my_contact_form
+mode: default
+content:
+  field_contact_place:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_my_form:
+    weight: 0
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+  field_my_map:
+    weight: 2
+    label: hidden
+    settings:
+      include_map: true
+      apikey: ''
+      iframe_width: '460'
+      iframe_height: '250'
+      iframe_title: ''
+      static_scale: 1
+      link_text: 'View larger map'
+      zoom_level: 14
+      map_type: m
+      langcode: en
+      include_static_map: false
+      include_link: false
+      include_text: false
+    third_party_settings: {  }
+    type: simple_gmap
+    region: content
+hidden:
+  links: true

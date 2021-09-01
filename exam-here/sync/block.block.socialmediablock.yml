@@ -1,0 +1,25 @@
+uuid: 43f110ac-e5ee-49c1-88e3-cb0d8de6366a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0de018eb-2ab1-423b-a2d7-051b6634385c'
+  module:
+    - block_content
+  theme:
+    - exam
+id: socialmediablock
+theme: exam
+region: header
+weight: -4
+provider: null
+plugin: 'block_content:0de018eb-2ab1-423b-a2d7-051b6634385c'
+settings:
+  id: 'block_content:0de018eb-2ab1-423b-a2d7-051b6634385c'
+  label: social-media-block
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

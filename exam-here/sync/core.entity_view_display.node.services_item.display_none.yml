@@ -1,0 +1,29 @@
+uuid: 8a8d2774-dd25-418b-9131-8e8a49ca5cc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.display_none
+    - field.field.node.services_item.field_services_body
+    - field.field.node.services_item.field_services_image
+    - field.field.node.services_item.field_services_read_more
+    - field.field.node.services_item.field_services_tittle
+    - node.type.services_item
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: false
+id: node.services_item.display_none
+targetEntityType: node
+bundle: services_item
+mode: display_none
+content: {  }
+hidden:
+  field_services_body: true
+  field_services_image: true
+  field_services_read_more: true
+  field_services_tittle: true
+  links: true

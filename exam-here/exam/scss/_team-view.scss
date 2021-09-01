@@ -1,0 +1,35 @@
+main{
+  .block-views-blockteam-members-view-block-1 {
+    .view-content .views-row img{
+      margin: 0 10px 0 0;
+    }
+    margin: 111px auto 0 auto;
+    border-top: 1px solid #ccc;
+    max-width: 1215px;
+    .view-content .field--name-field-services-read-more {
+      background-color: #373645;
+    }
+    .field--type-text-with-summary{
+      margin: 26px 0 0 0;
+      max-width: 146px;
+      max-height: 2px;
+    }
+    h2 {
+      margin: -19px auto 0 auto;
+      width: 188px;
+      background-color: #fff;
+      display: block;
+    }
+  }
+  .view-team-members-view {
+    max-width: 1215px;
+    margin:  0 auto 95px auto;
+    padding: 103px 0 0 0;
+  }
+  .flag-my-like{
+      .use-ajax{
+        margin: 0 9px 0 68px;
+      }
+  }
+
+}

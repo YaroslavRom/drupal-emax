@@ -1,0 +1,22 @@
+uuid: 3e19d8a6-34fb-4ead-9ffc-68de52e244ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tittle_only.field_errors_tittle
+    - node.type.tittle_only
+  module:
+    - user
+id: node.tittle_only.teaser
+targetEntityType: node
+bundle: tittle_only
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_errors_tittle: true

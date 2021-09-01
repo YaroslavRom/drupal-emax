@@ -1,0 +1,21 @@
+uuid: 9c28dbbd-30c4-4ac3-aa9e-466a2f9069bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tiite_of_work
+    - node.type.news_item_
+  module:
+    - text
+id: node.news_item_.field_tiite_of_work
+field_name: field_tiite_of_work
+entity_type: node
+bundle: news_item_
+label: tiite-of-work
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
