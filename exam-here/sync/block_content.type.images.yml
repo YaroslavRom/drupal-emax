@@ -1,8 +1,0 @@
-uuid: 3d3cb3c6-1dda-4d85-ba4c-6aad29babeb4
-langcode: en
-status: true
-dependencies: {  }
-id: images
-label: images
-revision: 0
-description: copy-block

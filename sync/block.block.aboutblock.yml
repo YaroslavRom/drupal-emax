@@ -26,5 +26,5 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /home-page
+    pages: "/home-page\r\n/node/26"
     negate: false

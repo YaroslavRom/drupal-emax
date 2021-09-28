@@ -30,9 +30,10 @@ content:
   field_field_of_work:
     weight: 4
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_trimmed
     region: content
   field_more_news:
     weight: 8
@@ -44,9 +45,10 @@ content:
   field_news_body:
     weight: 7
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_trimmed
     region: content
   field_news_date:
     weight: 0
@@ -69,23 +71,26 @@ content:
   field_paragraph_title:
     weight: 6
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_trimmed
     region: content
   field_person_name:
     weight: 3
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_trimmed
     region: content
   field_tiite_of_work:
     weight: 2
     label: hidden
-    settings: {  }
+    settings:
+      trim_length: 250
     third_party_settings: {  }
-    type: text_default
+    type: text_trimmed
     region: content
 hidden:
   links: true
