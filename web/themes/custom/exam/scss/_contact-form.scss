@@ -3,6 +3,17 @@
   flex-direction: row;
   max-width: 1020px;
   margin: 0 auto;
+
+  p{
+    strong{
+      line-height: 24px;
+    }
+    letter-spacing: -0.5px;
+    strong{
+      //padding-bottom: 5px;
+      //display: inline-block;
+    }
+  }
   .region-content{
     .search-form{
       margin: 40px auto 0 auto;
@@ -47,7 +58,7 @@
 .field--name-field-contact-place{
   float: left;
   text-align: initial;
-  padding: 10px 10px 48px 21px;
+  padding: 18px 10px 35px 21px;
 }
 iframe{
   margin: 0 50px 0 0;
@@ -56,9 +67,15 @@ iframe{
   span{
     color: #353535;
     display: block;
-    padding: 60px 0 16px 0;
+    padding: 60px 0 15px 0;
     border-bottom: 4px solid #b7b7b7;
-    max-width: 260px;
+    max-width: 157px;
     margin: 0 auto;
+    letter-spacing: -2.5px;
+    font-size: 28px;
   }
+}
+
+.page-title{
+  margin-left: -76px;
 }

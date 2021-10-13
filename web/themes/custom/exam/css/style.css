@@ -69,6 +69,9 @@ p {
   padding-bottom: 30px;
   margin: 50px 30px 0 30px;
 }
+#block-homeicon .field--type-text-with-summary p img:hover {
+  border-bottom: 7px solid #3fa21c;
+}
 
 header {
   background-image: url("../images/header.png");
@@ -100,6 +103,10 @@ header .region-header #block-exam-main-menu ul .menu-item:last-child {
 }
 header .region-header #block-exam-main-menu ul .menu-item a {
   text-decoration: none;
+}
+header .region-header #block-exam-main-menu ul .menu-item a:hover {
+  text-decoration: underline;
+  color: #2a90ef;
 }
 
 #block-exam-branding a img {
@@ -325,16 +332,16 @@ main .flag-my-like .use-ajax {
   border-bottom: 5px solid #6e9bca;
 }
 
-.view-services-page, .view-projects-page, .view-teams-page, .view-clients-page {
+.view-services-page, .view-projects-page, .view-teams-page, .view-clients-page, .view-id-news_title {
   margin: 60px auto 20px auto;
   border-top: 5px solid #373645;
   border-bottom: 5px solid #6e9bca;
 }
-.view-services-page .view-content, .view-projects-page .view-content, .view-teams-page .view-content, .view-clients-page .view-content {
+.view-services-page .view-content, .view-projects-page .view-content, .view-teams-page .view-content, .view-clients-page .view-content, .view-id-news_title .view-content {
   display: flex;
   text-transform: uppercase;
 }
-.view-services-page .view-content a, .view-projects-page .view-content a, .view-teams-page .view-content a, .view-clients-page .view-content a {
+.view-services-page .view-content a, .view-projects-page .view-content a, .view-teams-page .view-content a, .view-clients-page .view-content a, .view-id-news_title .view-content a {
   font-weight: bold;
   font-size: 32px;
   color: #0c97ed;
@@ -393,6 +400,12 @@ footer .region-footer .block-block-content .field--type-text-with-summary p {
   max-width: 1020px;
   margin: 0 auto;
 }
+.form-mini-box p {
+  letter-spacing: -0.5px;
+}
+.form-mini-box p strong {
+  line-height: 24px;
+}
 .form-mini-box .region-content .search-form {
   margin: 40px auto 0 auto;
 }
@@ -436,7 +449,7 @@ footer .region-footer .block-block-content .field--type-text-with-summary p {
 .field--name-field-contact-place {
   float: left;
   text-align: initial;
-  padding: 10px 10px 48px 21px;
+  padding: 18px 10px 35px 21px;
 }
 
 iframe {
@@ -446,10 +459,16 @@ iframe {
 .block-page-title-block span {
   color: #353535;
   display: block;
-  padding: 60px 0 16px 0;
+  padding: 60px 0 15px 0;
   border-bottom: 4px solid #b7b7b7;
-  max-width: 260px;
+  max-width: 157px;
   margin: 0 auto;
+  letter-spacing: -2.5px;
+  font-size: 28px;
+}
+
+.page-title {
+  margin-left: -76px;
 }
 
 .region-primary-menu {
@@ -805,5 +824,9 @@ main .main-content .region-content .node--news-item- .node__content {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.contextual {
+  top: 99px;
 }
 /*# sourceMappingURL=style.css.map */
